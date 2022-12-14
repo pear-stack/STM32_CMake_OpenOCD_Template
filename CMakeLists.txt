@@ -50,8 +50,8 @@ set(sources_SRCS
 #
 set(include_path_DIRS
     ${PROJ_PATH}/inc
-    ${PROJ_PATH}/Drivers/CMSIS/Device/ST/STM32F3xx/Include
-    ${PROJ_PATH}/Drivers/CMSIS/Include
+    ${PROJ_PATH}/drivers/STM32CubeF3-master/Drivers/CMSIS/Device/ST/STM32F3xx/Include
+    ${PROJ_PATH}/drivers/STM32CubeF3-master/Drivers/CMSIS/Include
 )
 
 #

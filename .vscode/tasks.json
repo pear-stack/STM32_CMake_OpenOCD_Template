@@ -59,7 +59,7 @@
         {
             "type": "shell",
             "label": "CubeProg: Flash project (SWD)",
-            "command": "STM32_Programmer_CLI",
+            "command": "/home/pear/STMicroelectronics/STM32Cube/STM32CubeProgrammer/bin/STM32_Programmer_CLI",
             "args": [
                 "--connect",
                 "port=swd",
@@ -74,8 +74,8 @@
         },
         {
             "type": "shell",
-            "label": "CubeProg: Flash project with defined serial number (SWD) - you must set serial number first",
-            "command": "STM32_Programmer_CLI",
+            "label": "CubeProg: Flash project with defined serial number (SWD)",
+            "command": "/home/pear/STMicroelectronics/STM32Cube/STM32CubeProgrammer/bin/STM32_Programmer_CLI",
             "args": [
                 "--connect",
                 "port=swd",
@@ -103,7 +103,7 @@
         },
         {
             "type": "shell",
-            "label": "Prepare tests",
+            "label": "GTest: Prepare tests",
             "command": "cmake",
             "args": [
                 "-S",
@@ -120,7 +120,7 @@
         },
         {
             "type": "shell",
-            "label": "Build tests",
+            "label": "GTest: Build tests",
             "command": "cmake",
             "args": [
                 "--build",
@@ -135,7 +135,7 @@
         },
         {
             "type": "shell",
-            "label": "Ctest",
+            "label": "CTest",
             "command": "(pushd ${workspaceFolder}/test/build && ctest; popd) ",
             "problemMatcher": []
         }
