@@ -1,7 +1,7 @@
 #include "gtest/gtest.h"
 
 extern "C" {
-#include "AD9833_driver.h"
+#include "../inc/AD9833_driver.h"
 }
 
 TEST(t1, test1) {

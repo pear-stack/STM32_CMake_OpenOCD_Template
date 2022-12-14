@@ -2,7 +2,7 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Debug Microcontroller - STLink-V3",
+      "name": "Debug STLink-V3",
       "cwd": "${workspaceRoot}",
       "type": "cortex-debug",
       "executable": "${command:cmake.launchTargetPath}",
@@ -17,7 +17,7 @@
       "showDevDebugOutput": "both"
     },
     {
-      "name": "openocd",
+      "name": "Debug OpenOCD",
       "request": "launch",
       "type": "cortex-debug",
       "cwd": "${workspaceRoot}",
